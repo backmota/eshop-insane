@@ -1,0 +1,239 @@
+/* LayerSlider Default Skin */
+
+
+
+.ls-interfeis {margin: 0px 0px 1px 0px;}
+.ls-interfeis .ls-bar-timer{top:auto; bottom:0px;}
+.ls-interfeis .ls-bottom-nav-wrapper {
+	position:absolute;
+	bottom:10px;
+	width:100%;
+	height:30px;
+	text-align:center;
+}
+
+.ls-interfeis .ls-playvideo {
+	width: 50px;
+	height: 50px;
+	margin-left: -25px;
+	margin-top: -25px;
+}
+
+.ls-interfeis .ls-playvideo,
+.ls-interfeis .ls-nav-sides,
+.ls-interfeis .ls-fullscreen,
+.ls-interfeis .ls-loading-container {
+	background-image: url(skin.png);	
+}
+
+.ls-interfeis .ls-bottom-slidebuttons a,
+.ls-interfeis .ls-nav-start,
+.ls-interfeis .ls-nav-stop{
+	background-image:url(player.png);
+	background-repeat:no-repeat;
+}
+
+.ls-interfeis .ls-playvideo {
+	background-position: -300px -150px;
+}
+
+.ls-interfeis .ls-playvideo:hover,
+.ls-interfeis .ls-vpcontainer:hover .ls-playvideo {
+	background-position: -375px -150px;
+}
+
+.ls-interfeis .ls-nav-prev {
+	background-image:url(arrowleft_bold.png);
+	background-position: 13px 10px;
+}
+
+.ls-interfeis .ls-nav-next {
+	background-image:url(arrowright_bold.png);
+	background-position: 15px 10px;
+}
+
+.ls-interfeis .ls-nav-prev:hover , .ls-interfeis .ls-nav-next:hover {
+	-moz-box-shadow: 0 0 0 3px #fff;
+	-webkit-box-shadow: 0 0 0 3px #fff;
+	box-shadow: 0 0 0 3px #fff;
+}
+
+.ls-interfeis .ls-nav-start {
+	background-position: 0px -27px;
+	margin-right:8px;
+}
+
+.ls-interfeis .ls-nav-start:hover,
+.ls-interfeis .ls-nav-start-active {
+	background-position: 0px 0px;
+}
+
+.ls-interfeis .ls-nav-stop {
+	background-position: -58px -27px;
+	margin-left:8px;
+}
+
+.ls-interfeis .ls-nav-stop:hover,
+.ls-interfeis .ls-nav-stop-active {
+	background-position: -58px 0px;
+}
+.ls-interfeis .ls-bottom-slidebuttons a {
+	background-position: -34px -27px;
+	margin:0px 2px;
+}
+
+.ls-interfeis .ls-bottom-slidebuttons a.ls-nav-active,
+.ls-interfeis .ls-bottom-slidebuttons a:hover {
+	background-position: -34px 0px;
+}
+
+.ls-interfeis .ls-nav-sideleft {
+	background-position: -150px -150px;	
+}
+
+.ls-interfeis .ls-nav-sideright {
+	background-position: -225px -150px;	
+}
+
+
+
+.ls-interfeis .ls-nav-prev,
+.ls-interfeis .ls-nav-next {
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	z-index:1000;
+	top:50%;
+	margin-top:-20px;
+	background-repeat: no-repeat;
+	background-color:#0099cb;
+	-moz-box-shadow: 0 0 0 0px #fff;
+	-webkit-box-shadow: 0 0 0 0px #fff;
+	box-shadow: 0 0 0 0px #fff;
+	position: absolute;
+	-webkit-transition: -webkit-box-shadow .3s ease !important;
+	transition: box-shadow .3s ease !important;
+}
+
+.ls-interfeis .ls-nav-prev {
+	left: 10px;	
+}
+
+.ls-interfeis .ls-nav-next {
+	right: 10px;	
+}
+
+
+
+.ls-interfeis .ls-bottom-slidebuttons,
+.ls-interfeis .ls-bottom-slidebuttons a,
+.ls-interfeis .ls-nav-start,
+.ls-interfeis .ls-nav-stop,
+.ls-interfeis .ls-nav-sides {
+	height: 22px;
+}
+
+.ls-interfeis .ls-bottom-slidebuttons,
+.ls-interfeis .ls-bottom-slidebuttons a,
+.ls-interfeis .ls-nav-start,
+.ls-interfeis .ls-nav-stop,
+.ls-interfeis .ls-nav-sides {
+	display: inline-block;
+}
+
+.ls-interfeis .ls-nav-start,
+.ls-interfeis .ls-nav-stop {
+	width: 22px;
+}
+
+.ls-interfeis .ls-bottom-slidebuttons a {
+	width: 14px;
+}
+
+.ls-interfeis .ls-nav-sides {
+	width: 6px;	
+}
+
+
+
+.ls-interfeis .ls-thumbnail-hover {
+	bottom: 30px;
+	padding: 4px;
+	margin-left: 1px;
+}
+
+.ls-interfeis .ls-thumbnail-hover-bg {
+	background: white;
+	box-shadow: 0px 2px 12px -4px black;
+	border-radius: 4px;
+}
+
+.ls-interfeis .ls-thumbnail-hover span {
+	border: 5px solid white;
+	margin-left: -5px;
+}
+
+.ls-interfeis .ls-thumbnail-wrapper{position:absolute; bottom:27px;}
+.ls-interfeis .ls-thumbnail {
+	top: -20px;
+}
+
+.ls-interfeis .ls-thumbnail-inner {
+	padding: 5px;
+	margin-left: -5px;
+	background: white;
+	box-shadow: 0px 3px 35px -10px black;
+	border-radius: 4px;
+}
+
+.ls-interfeis .ls-thumbnail-slide a {
+	margin-right: 5px;
+}
+
+.ls-interfeis .ls-nothumb {
+	background: #eee;
+}
+
+
+
+.ls-interfeis .ls-above-thumbnails {
+	display: none;
+}
+
+.ls-interfeis .ls-below-thumbnails {
+	display: block;
+	margin-top: -20px;
+}
+
+
+
+.ls-interfeis .ls-loading-container {
+	width: 40px;
+	height: 40px;
+	margin-left: -20px;
+	margin-top: -20px;
+	background-position: -450px -150px;	
+}
+
+.ls-interfeis .ls-loading-indicator {
+	width: 22px;
+	height: 22px;
+	margin-top: 9px;
+	background-image: url(loading.gif);	
+}
+
+
+
+.ls-interfeis .ls-fullscreen {
+	width: 30px;
+	height: 30px;
+	right: 10px;
+	top: 10px;
+	background-position: -525px -150px;
+}
+
+.ls-interfeis .ls-fullscreen:hover {
+	background-position: -525px -190px;
+}
