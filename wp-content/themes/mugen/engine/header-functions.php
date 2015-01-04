@@ -201,10 +201,10 @@ if(!function_exists("if_print_stylesheet")){
 			}
 			
 			<?php if($optMenuFont!="0"){ ?>
-			#topnav li a, #topnav li a:visited{font-family: <?php echo $MenuOutput; ?> sans-serif !important;}
+			#topnav li a, #topnav li a:visited{font-family: <?php echo $MenuOutput; ?> futura !important;}
 			<?php } ?>
 			<?php if($optHeadingFont!="0"){ ?>
-			h1, h2, h3, h4, h5, h6{font-family: <?php echo $HeadingOutput; ?> sans-serif !important;}
+			h1, h2, h3, h4, h5, h6{font-family: <?php echo $HeadingOutput; ?> futura !important;}
 			<?php } ?>
 			<?php if($optBigTextFont!="0"){ ?>
 			.bigtext{
