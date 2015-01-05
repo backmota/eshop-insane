@@ -129,9 +129,9 @@ wp_head(); /* the interfeis' custom content for wp_head is in includes/header-fu
                             echo if_minicart("topminicart","commercepanel");
                         }
                         
-                        if($disable_toppcats!=true && function_exists('is_woocommerce')){
-                            if_woocategories("toppcats","commercepanel");
-                        }
+                       /* if($disable_toppcats!=true && function_exists('is_woocommerce')){
+                            if_woocategories("toppcats","commercepanel"); 
+                        } */
                         ?>
                         </div>
                         <div class="clearfix"></div>
