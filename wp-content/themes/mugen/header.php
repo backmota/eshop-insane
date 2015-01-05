@@ -81,12 +81,12 @@ wp_head(); /* the interfeis' custom content for wp_head is in includes/header-fu
                 <div class="container">
                     <div class="row">
                         <div class="headercontent twelve columns">
-                            <?php
+                            <?php/*
                             if($headerText){
                                 echo '<div class="alignleft toppanel toptext">' . do_shortcode($headerText) . '</div>';
                             }
     
-                            /*=====TOPSEARCH======*/
+                            =====TOPSEARCH======
                             if($disable_topsearch!=true){
                                 echo if_searchform("topsearchform", "toppanel lastpanel");
                             }
@@ -100,7 +100,7 @@ wp_head(); /* the interfeis' custom content for wp_head is in includes/header-fu
                             'fallback_cb'     => 'nav_2nd_fallback',
                             'theme_location' => 'headermenu' 
                             )); 
-                            ?>
+                            */?>
                             <div class="clearfix"></div>
                         </div>
                     </div>

@@ -108,7 +108,7 @@ ul#toppcats li.product_cat ul.children li a:hover{color:#0099cb;}
 #topnav .current_page_parent > a, #topnav .current_page_parent > a:hover,
 #topnav .current-menu-parent > a, #topnav .current-menu-parent > a:hover,
 #topnav .current-menu-item > a, #topnav .current-menu-item > a:hover
-{color:#0099cb;}
+{color:#5BA2D8;} /*color azul*/
 
 #topnav > li:hover{}
 #topnav > .current_page_item, #topnav > .current_page_item,
